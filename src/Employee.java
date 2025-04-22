@@ -1,4 +1,4 @@
-public class Main {
+public class Employee {
 
 
     private int employeeId;
@@ -7,7 +7,7 @@ public class Main {
     private double payRate;
 
     // Parameterized constructor
-    public Main(int employeeId, String name, double hoursWorked, double payRate) {
+    public Employee(int employeeId, String name, double hoursWorked, double payRate) {
         this.employeeId = employeeId;
         this.name = name;
         this.hoursWorked = hoursWorked;
