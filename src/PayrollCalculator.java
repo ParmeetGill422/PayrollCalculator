@@ -15,7 +15,7 @@ public class PayrollCalculator {
         System.out.println("Enter the name of the file to copy the data from:");
         String inputFile = scanner.nextLine();
 
-        System.out.println("Enter the name of the file you want to creat:");
+        System.out.println("Enter the name of the file you want to crate:");
         String outputFile = scanner.nextLine();
 
         List<Employee> employees = new ArrayList<>();
